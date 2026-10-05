@@ -71,7 +71,7 @@ elif pagina == "Análise Estatística Avançada":
     colC, colD = st.columns(2)
     with colC:
         fig3 = px.scatter(df_filtrado, x='area_desmatada_km2', y='focos_queimada', color='bioma', 
-                          title="Dispersão: Desmatamento x Queimadas", trendline="ols")
+                          title="Dispersão: Desmatamento x Queimadas")
         st.plotly_chart(fig3, use_container_width=True)
         
     with colD:
