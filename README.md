@@ -1,5 +1,9 @@
 # 🌲 Dashboard Ambiental: Desmatamento e Preservação no Brasil
 
+* **Disciplina:** LINGUAGENS DE PROGRAMAÇÃO
+* **Professor:** Alexandre Neves Lousada
+* **Aluno:** Guilherme Arnellas Chagas
+
 Projeto desenvolvido para a disciplina de Linguagem de Programação / Análise de Dados, com o objetivo de analisar espacial e temporalmente os dados de desmatamento, queimadas e emissões de CO₂ nos biomas brasileiros.
 
 ---

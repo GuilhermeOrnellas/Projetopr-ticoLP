@@ -9,6 +9,12 @@ st.set_page_config(page_title="Dashboard Ambiental Brasil", layout="wide")
 
 st.title("🌲 Desmatamento e Preservação Ambiental no Brasil")
 
+st.sidebar.markdown("---")
+st.sidebar.markdown("**Identificação do Aluno:**")
+st.sidebar.text("Guilherme Ornellas Chagas")
+st.sidebar.text("Prof: Alexandre Neves Lousada")
+st.sidebar.text("Disciplina: LINGUAGENS DE PROGRAMAÇÃO")
+
 
 @st.cache_data
 def load_data():
