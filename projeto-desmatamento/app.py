@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
+import os
 
 st.set_page_config(page_title="Dashboard Ambiental Brasil", layout="wide")
 
@@ -10,7 +11,9 @@ st.title("🌲 Desmatamento e Preservação Ambiental no Brasil")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("dados/simulacao_desmatamento_brasil.csv")
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    caminho_csv = os.path.join(base_path, "dados", "simulacao_desmatamento_brasil.csv")
+    return pd.read_csv(caminho_csv)
 
 df = load_data()
 
