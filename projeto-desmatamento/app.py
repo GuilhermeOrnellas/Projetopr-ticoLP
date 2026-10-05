@@ -10,7 +10,7 @@ st.title("🌲 Desmatamento e Preservação Ambiental no Brasil")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("dados/simulacao_desmatamento_brasil.csv")
+    return pd.read_csv("dados/simulacao_desmatamento_Brasil.csv")
 
 df = load_data()
 
